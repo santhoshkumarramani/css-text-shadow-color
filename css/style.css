@@ -1,0 +1,157 @@
+	.text-color{
+		border: 5px solid red;
+		color:green;
+	}
+	.text-background-color{
+		border-top:3px dotted green;
+		border-bottom:4px solid yellow;
+		border-right:5px dotted blue;
+		border-left:3px double black;
+		background-color:red;
+	}
+	#text-align{
+		border:5px solid blue;
+	}
+	.p1{
+		text-align:left;
+	}
+	.p2{
+		text-align:right;
+	}
+	.p3{
+		text-align:center;
+	}
+	.p4{
+		text-align:justify;
+	}
+	
+	
+	
+	#text-align-last{
+		border:5px double green;
+	}
+	.para1{
+		text-align-last:left;
+	}
+	.para2{
+		text-align-last:right;
+	}
+	.para3{
+		text-align-last:center;
+	}
+	.para4{
+		text-align-last:justify;
+	}
+	.direction{
+		border:6px solid blue;
+	}
+	.direction p{
+		direction:rtl;
+		unicode-bidi:bidi-override;
+	}	
+	
+	
+	
+	#text-decoration{
+		border:4px dotted rgb(255,0,255)
+	}
+	.d1{
+		text-decoration-line:overline;
+		
+	}
+	.d2{
+		text-decoration-line:underline;
+		
+	}
+	.d3{
+		text-decoration-line:line-through;
+		
+	}
+	.d11{
+		text-decoration-line:overline;
+		text-decoration-color:red;
+		
+	}
+	.d12{
+		text-decoration-line:underline;
+		text-decoration-color:green;
+		
+	}
+	.d13{
+		text-decoration-line:line-through;
+		text-decoration-color:yellow;
+		
+	}
+	
+	.d20{
+		    text-decoration-line: overline;
+			text-decoration-color: red;
+			text-decoration-thickness: 8px;
+	}
+	.d22{
+		text-decoration-line:underline;
+		text-decoration-color:green;
+		text-decoration-thickness:8px;
+	}
+	.d23{
+		text-decoration-line:line-through;
+		text-decoration-color:yellow;
+		text-decoration-thickness:8px;
+	}
+	
+	
+	
+	#text-transformation{
+		border:6px double gray;
+	}
+	.c1{
+		text-transform:uppercase;
+	}
+	.c2{
+		text-transform:lowercase;
+	}
+	.c3{
+		text-transform:capitalize;
+	}
+	
+	
+	#text-spacing{
+		border:6px solid red;
+	}
+	.text-indent{
+		text-indent:50px;
+	}
+	.letter-spacing{
+		letter-spacing:10px;
+	}	
+	.word-spacing{
+		word-spacing:20px;
+	}
+	.line-height{
+		line-height:40px;
+	}
+	.white-space1{
+		white-space:wrap;
+	}
+	.white-space2{
+		white-space:nowrap;
+	}	
+	
+	#shadow1{
+		border:7px double black;
+	}
+	.text-shadow{
+		font-size:50px;
+		text-align:center;	
+		text-shadow: 10px -5px 10px #38122b,20px 20px 5px #7e2121;
+	}
+	
+	#shadow2{
+		border:7px dotted green;
+	}
+	.box-shadow{
+		box-shadow:5px 10px 5px 5px red,60px -16px 5px 10px yellow;
+			
+		
+	}
+		
