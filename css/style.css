@@ -48,7 +48,38 @@
 	.direction p{
 		direction:rtl;
 		unicode-bidi:bidi-override;
+	}
+
+
+	#vertical-align{
+		border:5px solid blue;
 	}	
+		
+	.a {
+	  vertical-align: baseline;
+	  vertical-align:0px;
+	}
+
+	.b {
+	  vertical-align:text-top;
+	  vertical-align:10px;
+	}
+
+	.c {
+	  vertical-align: text-bottom;
+	  vertical-align:-50px;
+	}
+
+	.d {
+	  vertical-align: sub;
+	  vertical-align:-10px;
+	}
+
+	.e {
+	  vertical-align: super;
+	  vertical-align:10px;
+	}
+	
 	
 	
 	
@@ -152,6 +183,7 @@
 	.box-shadow{
 		box-shadow:5px 10px 5px 5px red,60px -16px 5px 10px yellow;
 			
-		
 	}
+
+	
 		
